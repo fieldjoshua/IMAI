@@ -1,6 +1,6 @@
 # Dependency Tracker
 
-This file tracks all Python dependencies used in the P.A.R.A. Life OS project.
+This file tracks all Python dependencies used in the IMAI project.
 
 ## Core Dependencies
 

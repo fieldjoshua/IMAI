@@ -1,4 +1,4 @@
-"""Content processing modules for P.A.R.A. Life OS."""
+"""Content processing modules for IMAI."""
 
 from processors.ai_processor import ClaudeProcessor
 from processors.file_processor import FileProcessor
