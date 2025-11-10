@@ -1,4 +1,4 @@
-"""Interactive setup wizard for P.A.R.A. Life OS."""
+"""Interactive setup wizard for IMAI."""
 
 import os
 import json
@@ -194,7 +194,7 @@ def verify_setup() -> None:
 
 def main() -> None:
     """Main setup wizard."""
-    print_header("P.A.R.A. Life OS Setup Wizard")
+    print_header("IMAI Setup Wizard")
 
     while True:
         print("\nSetup Options:")

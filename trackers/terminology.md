@@ -1,6 +1,6 @@
 # Terminology Tracker
 
-This file tracks all terminology, concepts, and naming conventions used in the P.A.R.A. Life OS project.
+This file tracks all terminology, concepts, and naming conventions used in the IMAI project.
 
 ## P.A.R.A. Methodology Terms
 

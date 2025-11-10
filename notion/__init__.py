@@ -1,4 +1,4 @@
-"""Notion API integration module for P.A.R.A. Life OS."""
+"""Notion API integration module for IMAI."""
 
 from notion.client import NotionClient
 from notion.databases import create_para_databases, ensure_databases_exist

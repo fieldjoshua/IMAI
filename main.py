@@ -1,4 +1,4 @@
-"""Main orchestrator for P.A.R.A. Life OS."""
+"""Main orchestrator for IMAI."""
 
 import os
 import time
@@ -17,7 +17,7 @@ from utils.uri_builder import build_obsidian_uri, build_file_uri
 
 
 class PARAOrchestrator:
-    """Main orchestrator for P.A.R.A. Life OS."""
+    """Main orchestrator for IMAI."""
 
     def __init__(self) -> None:
         """Initialize orchestrator."""
@@ -86,7 +86,7 @@ class PARAOrchestrator:
             print("Initialization failed. Exiting.")
             sys.exit(1)
 
-        print("Starting P.A.R.A. Life OS...")
+        print("Starting IMAI...")
         self.running = True
 
         # Setup signal handlers for graceful shutdown
@@ -289,7 +289,7 @@ class PARAOrchestrator:
         self.running = False
         if self.file_watcher:
             self.file_watcher.stop()
-        print("P.A.R.A. Life OS stopped.")
+        print("IMAI stopped.")
 
 
 def main() -> None:
