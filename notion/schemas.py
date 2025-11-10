@@ -1,4 +1,4 @@
-"""Notion database schema definitions for P.A.R.A. Life OS."""
+"""Notion database schema definitions for IMAI."""
 
 from typing import Dict, Any
 

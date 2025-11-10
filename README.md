@@ -1,6 +1,6 @@
-# P.A.R.A. Life OS
+# IMAI
 
-A comprehensive Python-based system that uses Notion as the central hub for organizing your life using the P.A.R.A. methodology. Automatically integrates files, calendar events, emails, contacts, and other data sources through AI-powered categorization.
+**IMAI** (Intelligent Management AI) is a comprehensive Python-based system that uses Notion as the central hub for organizing your life using the P.A.R.A. methodology. Automatically integrates files, calendar events, emails, contacts, and other data sources through AI-powered categorization.
 
 ## Features
 
@@ -25,7 +25,7 @@ A comprehensive Python-based system that uses Notion as the central hub for orga
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd AIAm
+cd IMAI
 ```
 
 2. Create a virtual environment:
@@ -165,7 +165,7 @@ for page in results:
 ## Project Structure
 
 ```
-AIAm/
+IMAI/
 ├── main.py                 # Main orchestrator
 ├── config.py               # Configuration management
 ├── setup.py                # Setup wizard
@@ -232,6 +232,49 @@ mypy .
 2. Implement `authenticate()` and `sync()` methods
 3. Add to `main.py` orchestrator
 4. Update configuration as needed
+
+## PR Workflow
+
+This project follows strict guardrails for Pull Requests. All PRs must comply with versioning, testing, and documentation requirements.
+
+### Quick Start
+
+1. **Create feature branch**:
+   ```bash
+   git checkout -b feat/feature-name
+   ```
+
+2. **Make changes and commit**:
+   ```bash
+   git add .
+   git commit -m "feat: add feature description"
+   ```
+   (Pre-commit hook will validate automatically)
+
+3. **Create PR**:
+   ```bash
+   ./scripts/create_pr.sh
+   ```
+
+### PR Requirements
+
+- **Versioning**: PRs must follow format `PR #01(a) — [Phase Name]`
+- **Version History**: PR description must include version history section
+- **Mandatory Updates**: Update trackers if dependencies/terminology changed
+- **Tests**: All tests must pass and be marked with PR phase markers
+- **Clean Code**: No debug code (print statements)
+
+### Helper Scripts
+
+- `./scripts/create_pr.sh` - Create PR with validation
+- `./scripts/verify_pr.py` - Verify PR compliance
+- `./scripts/update_trackers.py` - Update dependency/terminology trackers
+- `./scripts/clean_pr.py` - Post-CI cleanup
+
+### Documentation
+
+- [PR Workflow Guide](docs/PR_WORKFLOW.md) - Complete PR process
+- [Commit Conventions](docs/COMMIT_CONVENTIONS.md) - Commit message standards
 
 ## Troubleshooting
 

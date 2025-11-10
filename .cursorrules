@@ -350,7 +350,7 @@ gh --version  # Optional but recommended
 - Use relative paths for project files
 - Never create files outside project directory
 
-# P.A.R.A. LIFE OS SPECIFIC RULES
+# IMAI SPECIFIC RULES
 
 ## Terminology
 - Use exact P.A.R.A. terms: **Projects**, **Areas**, **Resources**, **Archives** (capitalized)

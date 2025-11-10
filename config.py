@@ -1,4 +1,4 @@
-"""Configuration management for P.A.R.A. Life OS."""
+"""Configuration management for IMAI."""
 
 import os
 import json
